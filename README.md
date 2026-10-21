@@ -13,3 +13,9 @@ Linear Probing for conflict resolution and also demonstrate my skills and  exper
 * Sorting
 * Abstract Data Types (ADT)
 * Unit testing (Python unittest)
+
+## Running the tests
+
+The tests need `english_small.txt` and the other `english_*.txt` word lists from the unit materials, which are not stored in this repository. Add them to this folder, then run:
+
+    python -m unittest discover -p "test_*.py"
